@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Mirage Example Project</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="dark">
+  <ion-card>
+      <ion-card-content>
+          <ion-card-title padding>
+            <pre class="question-text">
+              {{ '\n' + currentQuestion.text }}
+            </pre>
+          </ion-card-title>
+          <div class="answer" *ngFor="let answerKey of getAnswersArray()" (click)="answer(answerKey)">
+              {{ answerKey }}
+          </div>
+        </ion-card-content>
+  </ion-card>
+</ion-content>

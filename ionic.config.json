@@ -1,0 +1,6 @@
+{
+  "name": "MirageExample",
+  "app_id": "agency.fenrir.mirageexample",
+  "type": "ionic-angular",
+  "integrations": {}
+}
