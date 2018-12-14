@@ -10,6 +10,6 @@ Mirage engine Ionic example
 
 > ionic serve
 
+## Preview
 
-
-  
+![android-preview](https://raw.githubusercontent.com/lp1dev/mirage-ionic-example/master/screens/android.gif)
